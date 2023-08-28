@@ -355,7 +355,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             Welcome to Curio AI
           </div>
           <div className="text-center text-lg">
-            <div className="mb-8">{`Curio AI is trained as an intelligent copilot for your entire database.`}</div>
+            <div className="mb-8">{`Kleiner Perkins AI is trained as an intelligent copilot for your entire database.`}</div>
             <div className="mb-2 font-bold">
               The Copilot for Databases
             </div>
@@ -407,7 +407,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
                     </div>
 
                     {models.length > 0 && (
-                        <div className="flex flex-col h-full p-6 space-y-5 border-1 border-transparent rounded-xl shadow-md backdrop-filter backdrop-blur-sm bg-opacity-5 bg-white transition-transform duration-300 ease-in hover:bg-opacity-10 hover:border-[#00909e] hover:shadow-xl hover:-translate-y-1">
+                        <div className="flex flex-col h-full p-6 space-y-5 border-1 border-transparent rounded-xl shadow-md backdrop-filter backdrop-blur-sm bg-gray-800 bg-opacity-60 transition-transform duration-300 ease-in hover:bg-opacity-80 hover:border-[#00909e] hover:shadow-xl hover:-translate-y-1">
 
                             <ModelSelect className="rounded-md bg-gradient-to-r from-[#485563] to-[#29323c] p-2 shadow-md hover:shadow-xl transition-shadow"/>
                             

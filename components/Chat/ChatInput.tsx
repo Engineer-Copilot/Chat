@@ -272,7 +272,7 @@ export const ChatInput = ({
           selectedConversation &&
           selectedConversation.messages.length > 0 && (
             <button
-              className="rounded-lg bg-background absolute top-0 left-0 right-0 mx-auto mb-3 flex w-fit items-center gap-3 py-2 px-4 border border-gray-400 text-white hover:opacity-70 dark:text-white md:mb-0 md:mt-2"
+              className="rounded-lg bg-[#29323c] absolute top-0 left-0 right-0 mx-auto mb-3 flex w-fit items-center gap-3 py-2 px-4 text-white hover:opacity-70 dark:text-white md:mb-0 md:mt-2 shadow-2xl"
               onClick={onRegenerate}
             >
               <IconRepeat size={16} className="transition-all duration-500 hover:text-[#00909e] hover:animate-pulse"/> {t('Regenerate response')}
@@ -390,7 +390,7 @@ export const ChatInput = ({
         </a>
         .{' '}
         {t(
-          "KP Chat is an advanced copilot for the Kleiner Perkins Fellowship.",
+          "KP Chat is an advanced copilot for Kleiner Perkins Data.",
         )}
       </div>
     </div>
